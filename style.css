@@ -19,6 +19,7 @@ header {
   display: flex;
   flex-direction: row;
   color: #FFA200;
+  margin-left: 30px;
 }
 
 #header-left img {
