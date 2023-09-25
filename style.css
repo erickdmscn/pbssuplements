@@ -1,75 +1,112 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    max-height: 100px;
-  }
-  
-  #header-left{
-    display: flex;
-    flex-direction: row;
-  }
-  
-  #header-left img {
-    width: 100px; 
-    height: 30px; 
-    margin-right: 10px; 
-  }
-  #header-right{
-    margin-right: 50px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  max-height: 100px;
+  position: fixed;
+  width: 1860px;
+  font-size: 20px;
+  background-color: #fff;
+}
 
-  #main-content{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    row-gap: 120px;
-    column-gap: 100px;
-    margin-left: 200px;
-  }
-  
-  .produto img{
-    width: 250px;
-  }
+#header-left {
+  display: flex;
+  flex-direction: row;
+  color: #FFA200;
+}
 
-  .comprar{
-    background-color: rgb(255, 196, 0);
-    color: #fff;
-    font-size: 15px;
-    border-radius: 5px;
-    width: 285px;
-    height: 50px;
-    font-size: 15px;
-    cursor: pointer;
-  }
+#header-left img {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-right: 25px;
+}
 
-  .description{
-    font-weight: bold;
-    font-size: 15px;
-    padding-bottom: 10px;
-    margin: 0;
-  }
-  
-  .price{
-    color: goldenrod;
-    font-size: 23px; 
-    margin: 0;
-  }
+#header-right {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: #FFA200;
+}
 
-  .credit-pay{
-    font-size: 12px;
-    padding-bottom: 10px;
-    margin: 0;
-  }
+#header-right a{
+  text-decoration: none;
+  color: #FFA200;
+}
 
+#main-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  row-gap: 120px;
+  column-gap: 170px;
+  margin-left: 100px;
+  margin-top: 160px;
+  margin-bottom: 200px;
+}
 
+.produto img {
+  width: 250px;
+}
 
-  
+.comprar {
+  background-color: rgb(255, 196, 0);
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 285px;
+  height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.price {
+  color: goldenrod;
+  font-size: 23px;
+  margin: 0;
+}
+
+.credit-pay {
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+#home-background img {
+  width: 1860px;
+  height: 1080px;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #fff;
+  height: 20px;
+}
+
+footer h1 {
+  color: white;
+}
