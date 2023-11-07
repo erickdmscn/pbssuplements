@@ -10,11 +10,11 @@ header {
   flex-direction: row;
   max-height: 100px;
   position: fixed;
-  width: 1860px;
+  width: 100%;
   font-size: 20px;
   background: linear-gradient(to bottom, rgb(70, 70, 70), rgb(0, 0, 0));
+  padding: 0 20px; 
 }
-
 #header-left {
   display: flex;
   flex-direction: row;
@@ -41,6 +41,10 @@ header {
 #header-right a{
   text-decoration: none;
   color: #FFA200;
+}
+
+#home-background{
+    width: 100%; 
 }
 
 #text{
